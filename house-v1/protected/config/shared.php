@@ -2,7 +2,8 @@
 
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'My Web Application',
+    'name' => 'That House',
+    'defaultController' => 'home',
     // preloading 'log' component
     'preload' => array('log'),
     // autoloading model and component classes
@@ -74,4 +75,5 @@ return array(
         // this is used in contact page
         'adminEmail' => 'webmaster@domain.com',
     ),
+    'theme' => 'desktopv1',
 );
